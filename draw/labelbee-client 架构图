@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T03:12:24.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="XI9cfvnnv6uiPFa0h6I6" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-26T07:36:55.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="G_lqulgVzzoohWueGJPY" version="17.1.2" type="github">
   <diagram id="imK352Ge3wb2y_V-rg4W" name="Page-1">
-    <mxGraphModel dx="1005" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-1" target="Vyo8ikYfkIXOBz3fhQNB-2">
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-5" target="Vyo8ikYfkIXOBz3fhQNB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-1" value="LabelBee-Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="90" width="120" height="50" as="geometry" />
+          <mxGeometry x="220" y="90" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-2" target="Vyo8ikYfkIXOBz3fhQNB-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="420" />
+              <mxPoint x="120" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -23,18 +23,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-2" value="项目管理模块&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-5" value="维持标注项目在平台的持续性存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="100" height="30" as="geometry" />
+          <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-7" value="客户端操作&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-2" target="Vyo8ikYfkIXOBz3fhQNB-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="389" y="310" as="sourcePoint" />
-            <mxPoint x="439" y="260" as="targetPoint" />
+            <mxPoint x="269" y="310" as="sourcePoint" />
+            <mxPoint x="319" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-9" value="数据的读取校验，写入校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vyo8ikYfkIXOBz3fhQNB-8">
@@ -50,8 +47,48 @@
             <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-22" value="按需注入必备配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-10" target="Vyo8ikYfkIXOBz3fhQNB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vyo8ikYfkIXOBz3fhQNB-10" value="标注工具核心模块&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="234" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-5" value="维护标注项目在平台的持续性存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-1" target="Vyo8ikYfkIXOBz3fhQNB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="115" as="sourcePoint" />
+            <mxPoint x="120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-20" target="Vyo8ikYfkIXOBz3fhQNB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-29" value="初始化对应标注工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vyo8ikYfkIXOBz3fhQNB-24">
+          <mxGeometry x="-0.1391" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-20" target="Vyo8ikYfkIXOBz3fhQNB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-20" value="@labelbee/lb-components&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="510" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vyo8ikYfkIXOBz3fhQNB-23" target="Vyo8ikYfkIXOBz3fhQNB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-23" value="@labelbee/lb-annotation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="630" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-25" value="@labelbee/lb-utils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vyo8ikYfkIXOBz3fhQNB-30" value="使用国际化基础功能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="489.99724137931025" y="670.0044827586207" as="geometry">
+            <mxPoint x="-7" y="-69" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
