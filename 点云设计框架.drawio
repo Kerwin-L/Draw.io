@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T11:29:54.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="DLVA9wolGhVjRRdsRgE3" version="20.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-12T12:32:57.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F_QXLbQfVCZNcQ085XJC" version="20.0.0" type="github" pages="2">
   <diagram id="cu--mmnCfQmoxvePclkl" name="Page-1">
-    <mxGraphModel dx="2549" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="ePyjZ-RLDCYGtJi5La5V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ePyjZ-RLDCYGtJi5La5V-9" target="ePyjZ-RLDCYGtJi5La5V-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VgIj12n6e0X_d12hYF69-1" value="目的: 用于点云快速创建框体 + 范围，创建方向&lt;br&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;在同一页面内支持框体 &amp;amp; 多边形的功能的操作&lt;/li&gt;&lt;ol&gt;&lt;li&gt;通过切换模式的形式切换拉框 &amp;amp; 多边形功能&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;拉框工具与以往的不太一样&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; zaxs&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="VgIj12n6e0X_d12hYF69-1" value="目的: 用于点云快速创建框体 + 范围，创建方向&lt;br&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;在同一页面内支持框体 &amp;amp; 多边形的功能的操作&lt;/li&gt;&lt;ol&gt;&lt;li&gt;通过切换模式的形式切换拉框 &amp;amp; 多边形功能&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;拉框工具与以往的不太一样（可以更加明确表明当前的方向 - 模式区分于原有拉框标注模式）&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="205" y="460" width="380" height="310" as="geometry" />
         </mxCell>
       </root>
