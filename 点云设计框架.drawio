@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T01:31:16.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-BYvlBtgQ17gfe6nvQVe" version="20.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-13T01:47:51.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WQm4wmXq8x5BvcXEgJ7p" version="20.0.0" type="github" pages="2">
   <diagram id="cu--mmnCfQmoxvePclkl" name="Page-1">
-    <mxGraphModel dx="2624" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2204" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-293.75" y="892.5" width="1463.75" height="417.5" as="geometry" />
         </mxCell>
         <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-293.75" y="260" width="1453.75" height="600" as="geometry" />
+          <mxGeometry x="-293.75" y="260" width="1463.75" height="610" as="geometry" />
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=none;" edge="1" parent="1" source="UMKoZDGZpHtY30t7DNIq-1" target="UMKoZDGZpHtY30t7DNIq-3">
           <mxGeometry relative="1" as="geometry" />
@@ -48,11 +48,11 @@
         <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-21" value="1. Header 的重新适配&lt;br&gt;2. 侧边栏的标注的操作支持&lt;br&gt;3. 底部栏快捷键的设置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="1153.1" width="620" height="76.9" as="geometry" />
         </mxCell>
-        <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-22" value="目的: 用于 3d 视图的展示，查看当前检测框体的边缘的是否贴合&lt;br&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;基础视角转换操作&lt;/li&gt;&lt;ol&gt;&lt;li&gt;平移&lt;/li&gt;&lt;li&gt;旋转视角（需要限制相机角度，避免低于地面，且避免相机自转）&lt;/li&gt;&lt;li&gt;快捷视角切换（左侧、右侧、前侧、后侧、左前上方、右后上方）&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;重置3D位置&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/ul&gt;&lt;li&gt;图形基础图形渲染&lt;/li&gt;&lt;ol&gt;&lt;li&gt;点集&lt;/li&gt;&lt;ol&gt;&lt;li&gt;不同 z 的点的颜色不同&lt;/li&gt;&lt;li&gt;被不同属性包裹的框的颜色不同（待定）&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;立体框&lt;/li&gt;&lt;li&gt;箭头（表示当前立体框的方向）&lt;/li&gt;&lt;li&gt;框体 id 文本显示&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="370" width="390" height="280" as="geometry" />
+        <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-22" value="目的: 用于 3d 视图的展示，查看当前检测框体的边缘的是否贴合&lt;br&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;基础视角转换操作（2 - 3 天）&lt;/li&gt;&lt;ol&gt;&lt;li&gt;平移&lt;/li&gt;&lt;li&gt;旋转视角（需要限制相机角度，避免低于地面，且避免相机自转）&lt;/li&gt;&lt;li&gt;快捷视角切换（左侧、右侧、前侧、后侧、左前上方、右后上方）&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;重置3D位置&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/ul&gt;&lt;li&gt;图形基础图形渲染（1 - 2 天）&lt;/li&gt;&lt;ol&gt;&lt;li&gt;点集&lt;/li&gt;&lt;ol&gt;&lt;li&gt;不同 z 的点的颜色不同&lt;/li&gt;&lt;li&gt;被不同属性包裹的框的颜色不同（待定）&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;立体框&lt;/li&gt;&lt;li&gt;箭头（表示当前立体框的方向）&lt;/li&gt;&lt;li&gt;框体 id 文本显示&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;div&gt;结构设计要求： ( 2 天）&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;如何跟原有模式融合？（&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="370" width="390" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-24" value="目的： 同步当前点云的结构的 2d 映射场景&lt;br&gt;&lt;br&gt;背景： &lt;br&gt;&lt;ol&gt;&lt;li&gt;如果在俯视图创建的框体后，需要根据映射算法（摄像头的角度 + 距离 + 框体位置 + 大小等等因素）创建到 2d 图片内 —— 具体算法可以找斌斌（但是实际并不准确）&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;功能要求：&lt;br&gt;&lt;ol&gt;&lt;li&gt;如果创建了一个新的框， 需要在 2d 映射框体数据内进行生成数据。&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;重点注意：&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;该部分功能需要考虑下编写的数据结构，看的是否的要沿用原来设计的数据结构&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="700" y="370" width="390" height="320" as="geometry" />
+        <mxCell id="vRJ8NS9Ozwkvw3oWJRk8-24" value="目的： 同步当前点云的结构的 2d 映射场景&lt;br&gt;&lt;br&gt;背景： &lt;br&gt;&lt;ol&gt;&lt;li&gt;如果在俯视图创建的框体后，需要根据映射算法（摄像头的角度 + 距离 + 框体位置 + 大小等等因素）创建到 2d 图片内 —— 具体算法可以找斌斌（但是实际并不准确）&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;功能要求：(1d- 2d)&lt;br&gt;&lt;ol&gt;&lt;li&gt;如果创建了一个新的框， 需要在 2d 映射框体数据内进行生成数据。&lt;/li&gt;&lt;li&gt;俯视图中选中时的简单映射&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;重点注意：&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;该部分功能需要考虑下编写的数据结构，看的是否的要沿用原来设计的数据结构&lt;/li&gt;&lt;li&gt;其实可以跟三视图的标注控件融合， 做一个简单的小的标注子集，将标注的功能细粒度拆细，变得可配置操作&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;font color=&quot;#ff1c03&quot;&gt;问题： 如果框体生成不在范围内是否需要生成真正的数据？&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" y="370" width="390" height="390" as="geometry" />
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="vRJ8NS9Ozwkvw3oWJRk8-26" target="ePyjZ-RLDCYGtJi5La5V-4">
           <mxGeometry relative="1" as="geometry" />
@@ -87,8 +87,8 @@
         <mxCell id="ePyjZ-RLDCYGtJi5La5V-5" value="渲染视图组件&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1060" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VgIj12n6e0X_d12hYF69-1" value="目的: 用于点云快速创建框体 + 范围，创建方向&lt;br&gt;&lt;br&gt;基础背景：&lt;br&gt;&lt;ol&gt;&lt;li&gt;三视图内默认单位都是 m（米）&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;在同一页面内支持框体 &amp;amp; 多边形的功能的操作&lt;/li&gt;&lt;ol&gt;&lt;li&gt;通过切换模式的形式切换拉框 &amp;amp; 多边形功能&lt;/li&gt;&lt;ol&gt;&lt;li&gt;拉框工具与以往的不太一样（可以更加明确表明当前的方向 - 模式区分于原有拉框标注模式）&lt;/li&gt;&lt;li&gt;多边形跟原有类似即可&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;其他基础扩展功能【拉框】&lt;/li&gt;&lt;ol&gt;&lt;li&gt;支持的旋转框体的角度 qe 进行左右旋转&amp;nbsp;&lt;/li&gt;&lt;li&gt;上下框的快速选中&lt;/li&gt;&lt;li&gt;ctrl + 右键多选框（支持多选复制，并跨页粘贴）&lt;/li&gt;&lt;li&gt;切换框体的有效性&amp;nbsp;&lt;/li&gt;&lt;li&gt;复制、粘贴框（支持跨页复制，复制时若框ID已存在需要弹框警告）—— 可以考虑将其抽离到 lb-componets 组件内&lt;/li&gt;&lt;li&gt;显示当前选中框参数（长、宽、高、朝向角、框内点数）&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;数据联动&lt;/li&gt;&lt;ol&gt;&lt;li&gt;俯视图创建框体之后需要联动另外两类的框体进行展示（需要计算当前框体范围内包含的所有点集）&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;li&gt;三种视图的兼容&lt;/li&gt;&lt;ol&gt;&lt;li&gt;需要支持三种视图角度 （俯视图、侧视图、背视图）&lt;/li&gt;&lt;li&gt;理论上是仅俯视图可以创建框体&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="202.5" y="370" width="477.5" height="470" as="geometry" />
+        <mxCell id="VgIj12n6e0X_d12hYF69-1" value="目的: 用于点云快速创建框体 + 范围，创建方向&lt;br&gt;&lt;br&gt;基础背景：&lt;br&gt;&lt;ol&gt;&lt;li&gt;三视图内默认单位都是 m（米）&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;功能列表：&lt;br&gt;&lt;ol&gt;&lt;li&gt;在同一页面内支持框体 &amp;amp; 多边形的功能的操作（5d）&lt;/li&gt;&lt;ol&gt;&lt;li&gt;通过切换模式的形式切换拉框 &amp;amp; 多边形功能 （&lt;/li&gt;&lt;ol&gt;&lt;li&gt;拉框工具与以往的不太一样（可以更加明确表明当前的方向 - 模式区分于原有拉框标注模式）&lt;/li&gt;&lt;li&gt;多边形跟原有类似即可&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;其他基础扩展功能【拉框】&lt;/li&gt;&lt;ol&gt;&lt;li&gt;支持的旋转框体的角度 qe 进行左右旋转&amp;nbsp;&lt;/li&gt;&lt;li&gt;上下框的快速选中&lt;/li&gt;&lt;li&gt;ctrl + 右键多选框（支持多选复制，并跨页粘贴）&lt;/li&gt;&lt;li&gt;切换框体的有效性&amp;nbsp;&lt;/li&gt;&lt;li&gt;复制、粘贴框（支持跨页复制，复制时若框ID已存在需要弹框警告）—— 可以考虑将其抽离到 lb-componets 组件内&lt;/li&gt;&lt;li&gt;显示当前选中框参数（长、宽、高、朝向角、框内点数）&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;【注意点】数据联动（不一定封装在其中）（1d）&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;俯视图创建框体之后需要联动另外两类的框体进行展示（需要计算当前框体范围内包含的所有点集）&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;br&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;li&gt;三种视图的兼容 （ 2d）&lt;/li&gt;&lt;ol&gt;&lt;li&gt;需要支持三种视图角度 （俯视图、侧视图、背视图）&lt;/li&gt;&lt;li&gt;理论上是仅俯视图可以创建框体&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="477.5" height="470" as="geometry" />
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgIj12n6e0X_d12hYF69-10" target="VgIj12n6e0X_d12hYF69-13">
           <mxGeometry relative="1" as="geometry">
@@ -99,7 +99,7 @@
           <mxGeometry x="-260" y="927.5" width="1360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-11" value="都为业务无关的单独渲染库&lt;br&gt;lb-annotation" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="730" width="190" height="100" as="geometry" />
+          <mxGeometry x="1000" y="770" width="160" height="90.9" as="geometry" />
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-13" value="&lt;ol style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;管理点云视图之间数据生成之间的数据传递&lt;/li&gt;&lt;ol style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;【例如】俯视图生成数据之后，同步到点云数据，并且同步到 2d 映射数据&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeWidth=1;spacing=0;verticalAlign=middle;align=left;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1241" y="907.5" width="289" height="130" as="geometry" />
@@ -115,6 +115,9 @@
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-36" value="&lt;ol&gt;&lt;li&gt;&lt;font color=&quot;#ff3399&quot;&gt;数据类型的说明（需要设计支持）&lt;/font&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;数据格式的输入的说明&lt;/li&gt;&lt;li&gt;格式输出的说明&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;点云操作详情文档（中&amp;amp;英）&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;align=left;" vertex="1" parent="1">
           <mxGeometry x="1241" y="1340" width="299" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VgIj12n6e0X_d12hYF69-37" value="其他背景知识记录：&lt;br&gt;&lt;ol&gt;&lt;li&gt;了解当前点云的数据结构，三种视图如何兼容更好的传递数据&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1261" y="260" width="289" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
