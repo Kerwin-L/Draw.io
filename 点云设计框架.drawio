@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T14:44:42.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="i8zOhwEeWRdSlFMAbob7" version="20.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-30T06:44:20.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6WrhThytaol8d_Xjuwqh" version="20.0.3" type="github" pages="2">
   <diagram id="cu--mmnCfQmoxvePclkl" name="点云功能细节框架">
-    <mxGraphModel dx="2259" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2400" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XIKyV4sUIhWNu4whvfus-1" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="237" width="1460" height="633" as="geometry" />
+        </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-29" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-293.75" y="892.5" width="1463.75" height="347.5" as="geometry" />
         </mxCell>
@@ -20,7 +23,7 @@
         </mxCell>
         <mxCell id="VgIj12n6e0X_d12hYF69-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;" parent="1" source="UMKoZDGZpHtY30t7DNIq-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="260" as="targetPoint" />
+            <mxPoint x="385" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UMKoZDGZpHtY30t7DNIq-3" value="lb - annotation 中集成 threejs 各类渲染操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
